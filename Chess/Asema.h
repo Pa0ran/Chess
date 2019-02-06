@@ -29,6 +29,7 @@ public:
 	//Konstruktori luo alkuaseman laudalle
 	Asema();
 	Nappula* lauta[8][8];
+	void annaLaillisetSiirrot(std::list<Siirto>& lista);
 	void paivitaAsema(Siirto* siirto);
 	int getSiirtovuoro();
 	void setSiirtovuoro(int vari);

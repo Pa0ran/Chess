@@ -140,19 +140,31 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Asema.cpp" />
+    <ClCompile Include="Daami.cpp" />
     <ClCompile Include="Kayttoliittyma.cpp" />
+    <ClCompile Include="Kuningas.cpp" />
+    <ClCompile Include="Lahetti.cpp" />
+    <ClCompile Include="Ratsu.cpp" />
     <ClCompile Include="Ruutu.cpp" />
     <ClCompile Include="Siirto.cpp" />
+    <ClCompile Include="Sotilas.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="nappula.cpp" />
+    <ClCompile Include="Torni.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Asema.h" />
+    <ClInclude Include="Daami.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Kayttoliittyma.h" />
+    <ClInclude Include="Kuningas.h" />
+    <ClInclude Include="Lahetti.h" />
     <ClInclude Include="nappula.h" />
+    <ClInclude Include="Ratsu.h" />
     <ClInclude Include="Ruutu.h" />
     <ClInclude Include="Siirto.h" />
+    <ClInclude Include="Sotilas.h" />
+    <ClInclude Include="Torni.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

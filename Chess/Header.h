@@ -10,4 +10,11 @@
 #include "Siirto.h"
 #include "Ruutu.h"
 #include <cstring>
+#include <list>
+#include "Sotilas.h"
+#include "Daami.h"
+#include "Kuningas.h"
+#include "Lahetti.h"
+#include "Ratsu.h"
+#include "Torni.h"
 using namespace std;

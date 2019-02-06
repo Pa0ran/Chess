@@ -1,18 +1,18 @@
 #include "Header.h"
 Asema::Asema() 
 {
-	VT = new Nappula(L"\u2656", 0, 0);
-	VR = new Nappula(L"\u2658", 0, 1);
-	VL = new Nappula(L"\u2657", 0, 2);
-	VD = new Nappula(L"\u2655", 0, 3);
-	VK = new Nappula(L"\u2654", 0, 4);
-	VS = new Nappula(L"\u2659", 0, 5);
-	MT = new Nappula(L"\u265C", 0, 6);
-	MR = new Nappula(L"\u265E", 0, 7);
-	ML = new Nappula(L"\u265D", 0, 8);
-	MD = new Nappula(L"\u265B", 0, 9);
-	MK = new Nappula(L"\u265A", 0, 10);
-	MS = new Nappula(L"\u265F", 0, 11);
+	VT = new Torni(L"\u2656", 0, 0);
+	VR = new Ratsu(L"\u2658", 0, 1);
+	VL = new Lahetti(L"\u2657", 0, 2);
+	VD = new Daami(L"\u2655", 0, 3);
+	VK = new Kuningas(L"\u2654", 0, 4);
+	VS = new Sotilas(L"\u2659", 0, 5);
+	MT = new Torni(L"\u265C", 1, 6);
+	MR = new Ratsu(L"\u265E", 1, 7);
+	ML = new Lahetti(L"\u265D", 1, 8);
+	MD = new Daami(L"\u265B", 1, 9);
+	MK = new Kuningas(L"\u265A", 1, 10);
+	MS = new Sotilas(L"\u265F", 1, 11);
 	for (int i = 0; i < 8;i++) {
 		for (int j = 0;j < 8;j++) {
 			lauta[i][j] = nullptr;
@@ -58,6 +58,11 @@ void Asema::paivitaAsema(Siirto* siirto)
 	lauta[siirto->getAlkuruutu().getSarake()][siirto->getAlkuruutu().getRivi()] = nullptr;
 	lauta[siirto->getLoppuruutu().getSarake()][siirto->getLoppuruutu().getRivi()] = nappula;
 
+	
+}
+void Asema::annaLaillisetSiirrot(std::list<Siirto>& lista) 
+{
+	
 	
 }
 int Asema::getSiirtovuoro() {

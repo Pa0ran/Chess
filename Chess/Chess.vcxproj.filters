@@ -33,6 +33,24 @@
     <ClCompile Include="Siirto.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sotilas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Torni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lahetti.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kuningas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Daami.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ratsu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
@@ -51,6 +69,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Siirto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sotilas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Torni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ratsu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lahetti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Daami.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kuningas.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
